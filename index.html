@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap練習</title>
+    <title>Bootstrap練習2</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -20,24 +20,70 @@
 
   <body>
     <header>
-      <div class="row text-light bg-secondary">
-        <div class="col">1-1</div>
-        <div class="col">1-2</div>
-        <div class="col">1-3</div>
-      </div>
-      
-      <div class="d-flex justify-content-end">
-        <div class="">1</div>
-        <div class="">2</div>
-        <div class="">3</div>
-        <div class="">4</div>
-      </div>
-      <div class="d-flex justify-content-sm-around">
-        <div class="">1-1</div>
-        <div class="">1-2</div>
-        <div class="">1-3</div>
-        <div class="">1-4</div>
-      </div>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="#"
+                  >首頁</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-lighter"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  下拉選單
+                </a>
+                <ul class="dropdown-menu text-center">
+                  <li><a class="dropdown-item" href="#">項目一</a></li>
+                  <li><a class="dropdown-item" href="#">項目二</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">其他東西</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-info text-opacity-75"
+                  >點不到</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="想找什麼？"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary text-nowrap" type="submit">
+                搜尋
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer>
