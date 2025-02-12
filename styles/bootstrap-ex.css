@@ -1,0 +1,6 @@
+.nav-link{
+    color: #712cf9;
+}
+.navbar-nav .nav-link.active{
+    color: blue;
+}
