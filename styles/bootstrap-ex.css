@@ -4,3 +4,6 @@
 .navbar-nav .nav-link.active{
     color: blue;
 }
+li::marker{
+    list-style: none;
+}
