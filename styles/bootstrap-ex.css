@@ -1,9 +1,20 @@
+.text-color-ch{
+    color: #712cf9;
+}
+
 .nav-link{
     color: #712cf9;
 }
 .navbar-nav .nav-link.active{
     color: blue;
 }
-li::marker{
-    list-style: none;
+.bg-search{
+    --bs-btn-bg: #702cf9;
+    --bs-btn-border-color:#fff;
+    --bs-btn-hover-bg:#4b1da8;
+    --bs-btn-hover-border-color:var(--bs-btn-border-color);
+    --bs-btn-active-bg:#7c46e9;
+    --bs-btn-active-border-color:var(--bs-btn-active-bg);
+    --bs-btn-disabled-bg:#00000000;
+    --bs-btn-disabled-border-color:var(--bs-btn-disabled-bg);
 }
